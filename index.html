@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Prevent videos download </title>
 </head>
+
 <body>
-    <script>
-        
-        $(document).ready(function() {
-            $("video").bind("contextmenu",function(){
-                return false;
-                });
-         } );
-    </script>
-    <h1>hello word</h1>
+    <h1> Prevent videos download from your websites</h1>
+    <video controlsList="nodownload" oncontextmenu="return false;" src="./sample video.mp4" width="320" height="240"
+        type='video/mp4' controls></video>
+
+
+
 </body>
+
 </html>
